@@ -1,0 +1,43 @@
+.w500{
+    width: 500px;
+
+}
+.h100{
+    height: 100px;
+}
+.bg{
+    background: yellow;
+}
+.border{
+    border: 3px black solid;
+}
+.w200{
+    width: 200px;
+
+}
+.h316{
+    height: 316px;
+}
+.bg--menu{
+    background: hotpink;
+}
+.w285{
+    width: 285px;
+}
+.h150{
+    height: 150px;
+}
+.bg--post{
+    background: aqua;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.margin{
+    margin: 5px 5px 5px;
+}

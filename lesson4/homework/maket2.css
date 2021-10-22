@@ -1,0 +1,49 @@
+.h70{
+    height: 70px;
+
+}
+.w400{
+    width: 400px;
+}
+.bg--header{
+    background: #6b97e0;
+}
+.margin{
+    margin: 2px 2px 2px;
+}
+.center--text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white--text{
+    color: white;
+}
+.h50{
+    height: 50px;
+}
+.bg--nav{
+    background: #29acee;
+}
+.h150{
+    height: 150px;
+}
+.w300{
+    width: 300px;
+}
+.bg--main{
+    background: #52bfaa;
+}
+.w96{
+    width: 96px;
+}
+.bg--aside{
+    background: #6bb4bf;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.bg--footer{
+    background: #a0d1d0;
+}

@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+}
+.h100{
+    height: 100px;
+}
+.w600{
+    width: 600px;
+}
+.bg--widgets{
+    background: cornflowerblue;
+}
+.margin{
+    margin: 5px 5px 5px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.h200{
+    height: 200px;
+}
+.w193{
+    width: 193px;
+}
+.bg--boxofwidgets{
+    background: dodgerblue;
+}
+.h300{
+    height: 300px;
+}
+.bg--contact{
+    background: #6b97e0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white--text{
+    color:white;
+}
