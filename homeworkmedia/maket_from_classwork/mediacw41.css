@@ -1,0 +1,33 @@
+@media screen and (max-width: 401px)
+{
+
+   .w800{
+       width: 360px;
+   }
+   .w750{
+    width: 350px;
+   }
+   .w200{
+       width: 100px;
+   }
+   .hk200{
+       height: 100px;
+   }
+   .h300{
+       height: 200px;
+   }
+  .w85{
+      width: 40px;
+  }
+  .margin{
+      margin: 5px;
+  }
+  .h200{
+      height: 160px;
+  }
+  .h100{
+      height: 75px;
+  }
+
+}
+
