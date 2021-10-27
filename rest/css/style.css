@@ -1,0 +1,264 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Tinos', serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}.header{
+   background: url("../image/bg.png") no-repeat center/cover;
+   height: 100vh;
+ }
+.item img{
+  width: 20px;
+}
+
+
+.nav--menu{
+  display: flex;
+
+  column-gap: 23px;
+
+  justify-content: center;
+  align-items: center;
+}
+.top--header{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.item  {
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+
+
+.white--border {
+  border: 1px solid white;
+ background:white;
+  height: 51px;
+}
+.photo--phone{
+
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+
+  text-align: left;
+  color: #FFFFFF;
+}
+.photo--phone p{
+  width: 144px;
+  font-size: 14px;
+
+  font-weight: 400;
+  line-height: 19px;
+
+  text-align: left;
+
+  color: #FFFFFF;
+
+}
+
+
+
+/*}*/
+.button--style{
+  width: 157px;
+  height: 47px;
+  background:#FF7400;
+  color:white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  display:flex;
+  text-align: center;
+
+}
+.button--header{
+  align-items: center;
+  justify-content: center
+}
+h2{
+  margin-left: 33px;
+  font-size: 50px;
+  line-height: 57px;
+
+  color: #D67E35;
+}
+h1{
+
+  font-size: 80px;
+  line-height: 92px;
+
+  color: #D67E35;
+}
+.title p{
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  color: #FFFFFF;
+  margin-top: 12px;
+  margin-bottom: 21px;
+}
+.title p::before, .title p::after
+{
+  content:"";
+  display: block;
+  width: 51px;
+  height:2px;
+  background: #FFFFFF;
+
+}
+.header--main{
+  margin-top: 222px;
+
+}
+.button--title {
+  margin-left:173px;
+  align-items: center;
+  justify-content: center
+}
+/*.main-block{*/
+/* height: 329px;*/
+/*  width: 349px;*/
+/*  background: #FFFFFF;*/
+
+.s h1{
+
+  font-size: 26px;
+  line-height: 30px;
+  color: #2C2C2C;
+  margin: 2px;
+}
+.s p{
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 20px;
+  color: #656363;
+}
+.box--intro{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  height: 329px;
+  width: 349px;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.s{
+  display: flex;
+  flex-direction: column;
+  /* align-content: space-around; */
+  align-items: center;
+}
+.jk{
+  width: 263px;
+  display: flex;
+  justify-content: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.rowk{
+  display: flex;
+  flex-direction: row;
+}
+.color--for--text h1{
+  font-size: 26px;
+  line-height: 30px;
+  color: #bc9060;
+}
+.s img{
+  width: 126px;
+  height: 104px;
+  margin-top: 35px;
+}
+.gap{
+  display: flex;
+  column-gap: 31px;
+}
+.wrap{
+  position:absolute;
+  bottom: -269px;
+}
+.menu--mobile{
+  display: none;
+  width: 50px;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 4px;
+}
+.menu--mobile div{
+  height: 3px;
+  background: #FF7400;
+  border-radius: 50px;
+}
+.button--mobile{
+  display: none;
+  align-items: center;
+  justify-content: center
+}
+
+
+
+
+

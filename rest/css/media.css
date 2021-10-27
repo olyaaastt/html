@@ -1,0 +1,87 @@
+@media screen  and (max-width: 400px) {
+    .menu--header {
+        display: none;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .wrapper {
+        max-width: 300px;
+        padding: 0 10px;
+    }
+
+    .top--header {
+        padding-top: 10px;
+    }
+
+    .menu--mobile {
+        display: flex;
+    }
+
+    .title h2 {
+        font-size: 30px;
+
+        line-height: 34px;
+
+    }
+
+    .title h1 {
+        font-size: 40px;
+        line-height: 46px;
+
+    }
+
+    .title p {
+        font-size: 15px;
+        line-height: 20px
+
+    }
+
+    .title p::before, .title p::after {
+        display: none;
+    }
+
+    .button--title {
+        display: none;
+    }
+
+    .title {
+       display: flex;
+        align-items: center;
+
+        align-content: flex-end;
+        flex-direction: column;
+    }
+    .button--mobile{
+        display: flex;
+    }
+    .rowk{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .gap{
+        display: flex;
+        row-gap: 14px;
+    }
+.wrap{
+    bottom: -1042px
+}
+.box--intro{
+    height: 355px;
+    width: 290px;
+}
+
+}
+.s h1{
+    font-size: 26px;
+    line-height: 30px;
+}
+.s p{
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center
+}
+
