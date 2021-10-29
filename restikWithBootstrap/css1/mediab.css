@@ -1,0 +1,186 @@
+@media screen  and (max-width: 400px) {
+    .menu--header {
+        display: none;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .wrapper {
+        max-width: 311px;
+        padding: 0px 10px;
+    }
+
+    .top--header {
+        padding-top: 10px;
+    }
+
+    .menu--mobile {
+        display: block;
+    }
+
+    .title h2 {
+        font-size: 30px;
+
+        line-height: 34px;
+
+    }
+
+    .title h1 {
+        font-size: 40px;
+        line-height: 46px;
+
+    }
+
+    .title p {
+        font-size: 15px;
+        line-height: 20px
+
+    }
+
+    .title p::before, .title p::after {
+        display: none;
+    }
+
+    .mob {
+        display: none;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+
+        align-content: flex-end;
+        flex-direction: column;
+    }
+
+    .button--mobile {
+        display: flex;
+    }
+
+    .rowk {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .gap {
+        display: flex;
+        row-gap: 14px;
+    }
+
+    .wrap {
+        bottom: -1042px
+    }
+
+    .box--intro {
+        height: 355px;
+        width: 290px;
+    }
+
+    .history {
+
+        margin-top: 1088px;
+    }
+
+    .s h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .s p {
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center
+    }
+
+    .ryadochok {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shyrynapic img {
+        width: 290px;
+    }
+
+    .reklama h1 {
+        /* font-size: 52px; */
+        /* line-height: 60px; */
+        color: #D67E34;
+        /* text-shadow: 0 4px 4px rgb(0 0 0 / 25%); */
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+
+    }
+
+    .row {
+        display: none
+    }
+
+
+    .reklama p {
+
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+
+    }
+
+    .card.desk {
+        display: none;
+    }
+
+    .pos {
+        display: none;
+    }
+
+    .bokal img {
+        width: 255.06px;
+    }
+
+    .cookers {
+        width: 400px;
+    }
+
+    .txt {
+        margin-left: 13px;
+    }
+
+    .s img {
+
+        margin-left: 77px;
+    }
+
+    .mobile--pic img {
+        width: 400px;
+    }
+
+    .mobile img {
+        display: none;
+    }
+
+    .roww {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .deskop img {
+        display: block;
+    }
+
+    .galleryofdiahes {
+        margin-top: 29px;
+
+    }
+
+    .rest img {
+
+        height: 213px;
+    }
+}
+
+
+
+
