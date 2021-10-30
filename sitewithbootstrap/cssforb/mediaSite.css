@@ -1,0 +1,106 @@
+@media screen and (min-width: 375px) and (max-width: 400px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+
+        flex-wrap: nowrap;
+
+    }
+
+    .title p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        width: 379px;
+
+        letter-spacing: -0.004em;
+
+        /* Elsässer Header Paragraph Text */
+
+        color: #020303;
+    }
+
+    .size--of--mob img {
+        width: 400px;
+    }
+
+    .w img {
+        width: 391px;
+    }
+
+    .txt h2 {
+
+        margin-left: 62px;
+    }
+
+    .txt p {
+
+        margin-left: 15px;
+    }
+
+    .modern--text p {
+
+        margin-left: 14px;
+    }
+
+    .modern--text h2 {
+
+        margin-left: 29px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ml {
+        margin-left: 2px;
+    }
+
+    .boxs {
+
+        width: 317px;
+    }
+    .center-button {
+        margin-left: 34px;
+    }
+
+    .ryad {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-bottom {
+
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-img img{
+        width: 200px;
+    }
+    .bilder--img img{
+        width: 360px;
+    }
+    .mob{
+        display: none;
+    }
+    .center {
+
+        margin-right: 12px;
+    }
+    .colonka{
+        width: 375px;
+        margin-left: 13px;
+    }
+    .imgtwolines {
+        width: 403px;
+        height: 550px;
+    }
+}
