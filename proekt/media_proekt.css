@@ -1,0 +1,239 @@
+@media screen and (max-width: 320px) {
+.mob{
+    display: none;
+}
+    .deskop{
+        display: block;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+    }
+.center{
+    display: flex;
+    justify-content: start;
+}
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.call--me h3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #0F2438;
+}
+.text-end p {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    text-align: left;
+    text-decoration-line: underline;
+
+    color: #0F2438;
+}
+.text--me p{
+    font-size: 10px;
+    line-height: 12px;
+}
+.icons button {
+    width: 43px;
+    height: 41px;
+}
+    .form-size {
+        width: 270px;
+    }
+    .header-bot {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .col--gap {
+        column-gap: 4px;
+    }
+    .deskop img{
+        margin-bottom: 4px;
+    }
+    .slider-block-with-action {
+        display: flex;
+
+        flex-direction: column;
+        margin: 10px;
+    }
+    .slider {
+        width: 100%;
+
+    }
+    .slide h1 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: 4px;
+    }
+    .slide h4 {
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: 4px;
+    }
+    .sl img{
+        width: 131px;
+    }
+    .slide h2{
+        font-size: 20px;
+        line-height: 23px;
+        margin-left: 4px;
+    }
+    .slide p{
+        font-size: 14px;
+        line-height: 9px;
+    }
+    .slide button{
+        width: 124px;
+        height: 34px;
+    }
+    .ryadc{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .action h4{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+
+
+
+        color: #0F2438;
+    }
+    .action h2{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .action h3{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .action h5{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .action p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .action button{
+        width: 32px;
+        height: 32px;
+    }
+    .action{
+        height: 120px;
+
+       max-width: 336px;
+
+        border-radius: 1px;
+
+    }
+
+    .block-for-slider {
+        width: 305px;
+    }
+    button {
+        width: 101px;
+        height: 53px;
+    }
+    .ml{
+        margin-left: 2px;
+    }
+    .row-cols-2>* {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .img img {
+        width: 149px;
+        height: 127px;
+    }
+    .box--product--card h2{
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .box--product--card h3{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .box--product--card {
+        width: 142px;
+        height: 329px;
+    }
+.col--gap--med{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .news h1 {
+
+        margin-left: 10px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .soc-site {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer-bottom p {
+
+        margin-left: 4px;
+    }
+    .rowww{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .ff p{
+        margin-left: 10px;
+    }
+    .soc-site{
+        margin-left: 10px;
+    }
+    .menuformobilka{
+
+        width: 100%;
+        background: white;
+        position: fixed;
+        bottom: 0;
+
+    }
+    .wrap{
+        width: 100%;
+        position: relative;
+        bottom: 0;
+    }
+    .blockw{
+        width: 100%;
+        height: 34px;
+
+    }
+    .e{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+}
+
